@@ -1,0 +1,1 @@
+C:\Dev\TestProject\Palindrom\Debug\Palindrom.lib
