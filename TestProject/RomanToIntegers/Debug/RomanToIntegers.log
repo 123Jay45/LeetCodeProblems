@@ -1,2 +1,5 @@
-﻿  Roman2Integers.cpp
-  RomanToIntegers.vcxproj -> C:\Dev\TestProject\Debug\RomanToIntegers.lib
+﻿  pch.cpp
+  Roman2Integers.cpp
+  RomanToIntegers.cpp
+  Code wird generiert...
+  RomanToIntegers.vcxproj -> C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\Debug\RomanToIntegers.lib

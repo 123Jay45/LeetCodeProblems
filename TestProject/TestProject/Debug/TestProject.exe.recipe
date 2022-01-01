@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Dev\TestProject\Debug\TestProject.exe</FullPath>
+      <FullPath>C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\Debug\TestProject.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

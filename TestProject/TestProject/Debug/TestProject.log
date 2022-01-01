@@ -1,2 +1,4 @@
-﻿  test.cpp
-  TestProject.vcxproj -> C:\Dev\TestProject\Debug\TestProject.exe
+﻿  pch.cpp
+  test.cpp
+Palindrom.lib(ClassPalindrom.obj) : warning LNK4075: /EDITANDCONTINUE wird aufgrund der Angabe von /SAFESEH ignoriert.
+  TestProject.vcxproj -> C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\Debug\TestProject.exe

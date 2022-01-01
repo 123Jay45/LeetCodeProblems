@@ -1,2 +1,5 @@
-﻿  ClassPalindrom.cpp
-  Palindrom.vcxproj -> C:\Dev\TestProject\Debug\Palindrom.lib
+﻿  pch.cpp
+  ClassPalindrom.cpp
+  Palindrom.cpp
+  Code wird generiert...
+  Palindrom.vcxproj -> C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\Debug\Palindrom.lib
