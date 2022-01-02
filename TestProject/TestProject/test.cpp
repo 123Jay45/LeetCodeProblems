@@ -12,8 +12,6 @@ TEST(TestCaseName, PalindromTest){
 
 TEST(TestCaseName, Roman2IntegerTest)
 {
-	std::string target = "MMMDCVII";//3607
-	EXPECT_EQ(Roman2Integers::convert(target),3607);
+	std::string target = "CMCDIXIV";//2313
+	EXPECT_EQ(Roman2Integers::convert(target),1313);
 }
-
-//Testchanges

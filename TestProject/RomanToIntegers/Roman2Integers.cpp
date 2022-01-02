@@ -9,32 +9,70 @@ Roman2Integers::Roman2Integers()
 int Roman2Integers::convert(const std::string& target)
 {
 	int store= 0;
-	for (const char i : target)
+	
+	for (int i = 0; i < target.length();i++)
 	{
-	store += Roman2Integers::calc(i);
+		if((i >= 0) || (i < target.length()))
+		{
+			int prev = Roman2Integers::calc(target[i]);
+			int next = Roman2Integers::calc(target[i+1]);
+			store += (prev < next) ? (next - prev) : prev;
+			if(prev < next)
+			{
+				i++;
+			}
+		}
 	}
 	return store;
 }
 
-int Roman2Integers::calc(char val)
+int Roman2Integers::calc(char target)
 {
-	switch (val)
+	if(Roman2Integers::validateInput(target))
+	{
+		switch (target)
+		{
+		case 'M':
+			return 1000;
+		case 'D':
+			return 500;
+		case 'C':
+			return 100;
+		case 'L':
+			return 50;
+		case 'X':
+			return 10;
+		case 'V':
+			return 5;
+		case 'I':
+			return 1;
+		default:
+		return 0;
+		}
+	}else{
+		return -1;
+	}
+}
+
+bool Roman2Integers::validateInput(const char target)
+{
+	switch (target)
 	{
 	case 'M':
-		return 1000;
+		return true;
 	case 'D':
-		return 500;
+		return true;
 	case 'C':
-		return 100;
+		return true;
 	case 'L':
-		return 50;
+		return true;
 	case 'X':
-		return 10;
+		return true;
 	case 'V':
-		return 5;
+		return true;
 	case 'I':
-		return 1;
+		return true;
 	default:
-		return 0;
+		return false;
 	}
 }

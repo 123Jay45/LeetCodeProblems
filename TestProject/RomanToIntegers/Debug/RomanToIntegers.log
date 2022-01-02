@@ -1,5 +1,4 @@
-﻿  pch.cpp
-  Roman2Integers.cpp
-  RomanToIntegers.cpp
-  Code wird generiert...
+﻿  Roman2Integers.cpp
+C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\RomanToIntegers\Roman2Integers.cpp(13,20): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
+C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\RomanToIntegers\Roman2Integers.cpp(15,21): warning C4018: "<": Konflikt zwischen "signed" und "unsigned"
   RomanToIntegers.vcxproj -> C:\Dev\GitHubRepos\LeetCodeProblems\TestProject\Debug\RomanToIntegers.lib
